@@ -7,3 +7,6 @@ configMapGenerator:
       - PROD=true
       - REDIS_URL=redis-master
       - MONGODB_URL=mongodb
+
+generatorOptions:
+  disableNameSuffixHash: true
